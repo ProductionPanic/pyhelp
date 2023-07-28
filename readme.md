@@ -32,6 +32,64 @@ Commands:
 
 ```
 
+## Commands
+
+### activate-env
+
+Activate a virtual environment
+
+```bash
+Usage: pyhelp activate-env [OPTIONS] ENV_NAME
+```
+
+### autoinstall
+
+Automatically install dependencies from a python file
+
+```bash
+pyhelp autoinstall [OPTIONS] [PYTHON_FILE]
+```
+
+### create-env
+
+Create a new virtual environment
+
+```bash
+Usage: pyhelp create-env [OPTIONS] ENV_NAME
+```
+
+### django-template
+
+Create a Django project template
+
+```bash
+Usage: pyhelp django-template [OPTIONS] PROJECT_NAME
+```
+
+### flask-template
+
+Create a Flask project template
+
+```bash
+Usage: pyhelp flask-template [OPTIONS] PROJECT_NAME
+```
+
+### import-libraries
+
+Import library presets into a python file
+
+```bash
+Usage: pyhelp import-libraries [OPTIONS] [PYTHON_FILE]
+```
+
+### install-requirements
+
+Install requirements from a requirements.txt file
+
+```bash
+Usage: pyhelp install-requirements [OPTIONS] [REQUIREMENTS_FILE]
+```
+
 ## Contributing
 
 Pull requests are always welcome.
