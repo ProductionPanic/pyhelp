@@ -42,6 +42,8 @@ Activate a virtual environment
 pyhelp activate-env [OPTIONS] ENV_NAME
 ```
 
+- ENV_NAME: The name of the virtual environment to activate.
+
 ### autoinstall
 
 Automatically install dependencies from a python file
@@ -49,6 +51,8 @@ Automatically install dependencies from a python file
 ```bash
 pyhelp autoinstall [OPTIONS] [PYTHON_FILE]
 ```
+
+- PYTHON_FILE: The python file to read from. If not specified, the current directory will be searched for a file named "main.py".
 
 ### create-env
 
@@ -58,6 +62,8 @@ Create a new virtual environment
 pyhelp create-env [OPTIONS] ENV_NAME
 ```
 
+- ENV_NAME: The name of the virtual environment to create.
+
 ### django-template
 
 Create a Django project template
@@ -65,6 +71,8 @@ Create a Django project template
 ```bash
 pyhelp django-template [OPTIONS] PROJECT_NAME
 ```
+
+- PROJECT_NAME: The name of the Django project to create.
 
 ### flask-template
 
@@ -74,6 +82,8 @@ Create a Flask project template
 pyhelp flask-template [OPTIONS] PROJECT_NAME
 ```
 
+- PROJECT_NAME: The name of the Flask project to create.
+
 ### import-libraries
 
 Import library presets into a python file
@@ -82,6 +92,8 @@ Import library presets into a python file
 pyhelp import-libraries [OPTIONS] [PYTHON_FILE]
 ```
 
+- PYTHON_FILE: The python file to read from. If not specified, the current directory will be searched for a file named "main.py".
+
 ### install-requirements
 
 Install requirements from a requirements.txt file
@@ -89,6 +101,8 @@ Install requirements from a requirements.txt file
 ```bash
 pyhelp install-requirements [OPTIONS] [REQUIREMENTS_FILE]
 ```
+
+- REQUIREMENTS_FILE: The requirements.txt file to read from. If not specified, the current directory will be searched for a file named "requirements.txt".
 
 ## Contributing
 
