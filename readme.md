@@ -39,7 +39,7 @@ Commands:
 Activate a virtual environment
 
 ```bash
-Usage: pyhelp activate-env [OPTIONS] ENV_NAME
+pyhelp activate-env [OPTIONS] ENV_NAME
 ```
 
 ### autoinstall
@@ -55,7 +55,7 @@ pyhelp autoinstall [OPTIONS] [PYTHON_FILE]
 Create a new virtual environment
 
 ```bash
-Usage: pyhelp create-env [OPTIONS] ENV_NAME
+pyhelp create-env [OPTIONS] ENV_NAME
 ```
 
 ### django-template
@@ -63,7 +63,7 @@ Usage: pyhelp create-env [OPTIONS] ENV_NAME
 Create a Django project template
 
 ```bash
-Usage: pyhelp django-template [OPTIONS] PROJECT_NAME
+pyhelp django-template [OPTIONS] PROJECT_NAME
 ```
 
 ### flask-template
@@ -71,7 +71,7 @@ Usage: pyhelp django-template [OPTIONS] PROJECT_NAME
 Create a Flask project template
 
 ```bash
-Usage: pyhelp flask-template [OPTIONS] PROJECT_NAME
+pyhelp flask-template [OPTIONS] PROJECT_NAME
 ```
 
 ### import-libraries
@@ -79,7 +79,7 @@ Usage: pyhelp flask-template [OPTIONS] PROJECT_NAME
 Import library presets into a python file
 
 ```bash
-Usage: pyhelp import-libraries [OPTIONS] [PYTHON_FILE]
+pyhelp import-libraries [OPTIONS] [PYTHON_FILE]
 ```
 
 ### install-requirements
@@ -87,7 +87,7 @@ Usage: pyhelp import-libraries [OPTIONS] [PYTHON_FILE]
 Install requirements from a requirements.txt file
 
 ```bash
-Usage: pyhelp install-requirements [OPTIONS] [REQUIREMENTS_FILE]
+pyhelp install-requirements [OPTIONS] [REQUIREMENTS_FILE]
 ```
 
 ## Contributing
